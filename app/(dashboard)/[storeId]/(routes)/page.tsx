@@ -28,35 +28,35 @@ const DashboardPage: React.FC<DashboardPageProps> = async ({ params }) => {
         <Separator />
         <div className="grid gap-4 grid-cols-3">
           <Card>
-            <CardHeader className="flex flex-row items-center justify-between space-y-0">
+            <CardHeader className="p-3 md:p-6 flex flex-row items-center justify-between space-y-0">
               <CardTitle className="text-sm font-medium">
                 Total Revenue
               </CardTitle>
               <DollarSign className="h-4 w-4 text-muted-foreground" />
             </CardHeader>
-            <CardContent>
+            <CardContent className="px-3 md:px-6">
               <div className="text-2xl font-bold">
                 {formatter.format(totalRevenue)}
               </div>
             </CardContent>
           </Card>
           <Card>
-            <CardHeader className="flex flex-row items-center justify-between space-y-0">
-              <CardTitle className="text-sm font-medium">Sales</CardTitle>
+            <CardHeader className="p-3 md:p-6 flex flex-row items-center justify-between space-y-0">
+              <CardTitle className="text-sm font-medium">Total Sales</CardTitle>
               <CreditCard className="h-4 w-4 text-muted-foreground" />
             </CardHeader>
-            <CardContent>
+            <CardContent className="px-3 md:px-6">
               <div className="text-2xl font-bold">+{salesCount}</div>
             </CardContent>
           </Card>
           <Card>
-            <CardHeader className="flex flex-row items-center justify-between space-y-0">
+            <CardHeader className="p-3 md:p-6 flex flex-row items-center justify-between space-y-0">
               <CardTitle className="text-sm font-medium">
                 Products In Stock
               </CardTitle>
               <Package className="h-4 w-4 text-muted-foreground" />
             </CardHeader>
-            <CardContent>
+            <CardContent className="px-3 md:px-6">
               <div className="text-2xl font-bold">{stockCount}</div>
             </CardContent>
           </Card>
