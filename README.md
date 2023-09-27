@@ -71,9 +71,6 @@ This project was developed using React, NextJS, TypeScript, Tailwind CSS, Prisma
     <b><a href="https://www.radix-ui.com/" target="_blank">RADIX UI</a></b>: An open source component library optimized for fast development, easy maintenance, and accessibility.
   </li>
   <li>
-    <b><a href="https://www.pinecone.io/" target="_blank">PINECONE</a></b>: Long-Term Memory for AI -  Fully-managed, developer-friendly, and easily scalable vector database.
-  </li>
-  <li>
     <b><a href="https://www.mysql.com/" target="_blank">MYSQL</a></b>: Open-source relational database management system.
   </li>
   <li><b>HTML5:</b> 
